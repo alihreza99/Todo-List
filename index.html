@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="/assets/css/styles.css" rel="stylesheet" />
+	<link rel="stylesheet" href="./assets/plugins/fonts/font_awesome/style/all.css">
+	<link rel="icon" type="image/x-icon" href="/assets/images/apple-touch-icon.png">
+	<script src="/assets/js/sweetalert.js"></script>
+	
+    <title>Todo list</title>
+  </head>
+  <body>
+  	<div id="container">
+		<h1 class="title">Todo App</h1>
+		<form id="add-book">
+	    	<input type="text" placeholder="Add your new todo" />
+			<a class="button" href="#">+</a>
+	    </form>
+	    <div id="book-list">
+	    	<ul>
+	    		<h3 id="child"><i class="fa-solid fa-triangle-exclamation"></i> list is empty</h3>
+	    	</ul>
+	    </div>
+
+		<div class="info">
+			<div class="info-text">
+				<p class="info-text-item">You have </p> <p class="info-text-item" id="number"> 0 </p> <p class="info-text-item"> pending tasks</p>
+			</div>
+			<button id="clear-all">Clear All</button>
+		</div>
+
+    </div>
+    <script src="/assets/js/javascript.js"></script>
+  </body>
+</html>
